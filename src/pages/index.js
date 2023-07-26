@@ -98,7 +98,7 @@ export default function Home() {
         swiperRef.current.addEventListener("slidechange", (e) => {});
         Object.assign(swiperRef.current, swiperParams);
         swiperRef.current.initialize();
-    }, []);
+    }, [swiperParams]);
 
     const variants = {
         offscreen: {
@@ -294,10 +294,10 @@ export default function Home() {
                                 About me
                             </motion.h1>
                             <motion.p className=" md:text-lg md:leading-9" variants={textAnimate}>
-                                Hi! I'm Shuzuta, you can call me Shuu. I'am a self thaught digital illustrator
-                                who mainly draw fanarts from my favorite anime/video games.
-                                <br /> I'm still in processes of developing my style and are open to learn new
-                                things.
+                                Hi! I&apos;m Shuzuta, you can call me Shuu. I&apos;am a self thaught digital
+                                illustrator who mainly draw fanarts from my favorite anime/video games.
+                                <br /> I&apos;m still in processes of developing my style and are open to
+                                learn new things.
                             </motion.p>
                         </motion.div>
                     </motion.div>
