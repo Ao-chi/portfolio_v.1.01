@@ -3,13 +3,13 @@ import Layout from "./Layout";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const termOfService = () => {
+const TermOfService = () => {
     const router = useRouter();
     const [activeLink, setactiveLink] = useState("");
     useEffect(() => {
         const currentLink = router.asPath;
         setactiveLink(currentLink);
-    });
+    }, []);
 
     return (
         <Layout>
@@ -191,4 +191,4 @@ const termOfService = () => {
     );
 };
 
-export default termOfService;
+export default TermOfService;
