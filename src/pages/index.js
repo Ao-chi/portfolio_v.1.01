@@ -524,7 +524,7 @@ export default function Home() {
                                     href={
                                         "https://docs.google.com/forms/d/e/1FAIpQLScs2cnvU-6gAalRooct9QWovQxAm_M6yAsjt1qK1O5PTbOzqg/viewform?usp=sf_link"
                                     }
-                                    target=""
+                                    target="_"
                                 >
                                     Commission me
                                 </Link>
