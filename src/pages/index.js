@@ -1,6 +1,8 @@
 import Layout from "./Layout";
 import Head from "next/head";
 import ImageCard from "@/components/Card/ImageCard";
+import Button from "@/components/Button/Button";
+import Link from "next/link";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
@@ -508,13 +510,25 @@ export default function Home() {
                             >
                                 Contact
                             </motion.h1>
-                            <motion.p className=" md:text-lg md:leading-9" variants={textAnimate}>
+                            <motion.p className=" md:text-lg md:leading-9 " variants={textAnimate}>
                                 If you have a specific illustration project in mind, I offer commission
-                                services tailored to your needs. Please reach out using the Google form below.
+                                services tailored to your needs. Please reach out using the Google form button
+                                below.
                             </motion.p>
-                            <motion.p className=" md:text-lg md:leading-9" variants={textAnimate}>
+                            <motion.p className=" md:text-lg md:leading-9 mb-8" variants={textAnimate}>
                                 Thank You!
                             </motion.p>
+                            <motion.div variants={textAnimate}>
+                                <Link
+                                    className="bg-accent py-3 px-10 mb-5 rounded-lg font-bold text-xl text-button-bg hover:bg-white focus:bg-white focus:text-black hover:text-black transition-all duration-300 ease-in delay-100"
+                                    href={
+                                        "https://docs.google.com/forms/d/e/1FAIpQLScs2cnvU-6gAalRooct9QWovQxAm_M6yAsjt1qK1O5PTbOzqg/viewform?usp=sf_link"
+                                    }
+                                    target=""
+                                >
+                                    Commission me
+                                </Link>
+                            </motion.div>
                         </motion.div>
                     </motion.div>
                 </motion.div>
