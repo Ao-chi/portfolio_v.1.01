@@ -27,7 +27,7 @@ const CommissionPage = () => {
                         <CommCard img="/images/bust.jpg">
                             <div className="mb-5">
                                 <h2 className="text-txt_white text-xl md:text-[40px] font-bold border-b-4 border-accent pb-3">
-                                    BUST SHOT - 40 USD
+                                    BUST SHOT - 35 USD
                                 </h2>
                             </div>
                             <div>
@@ -52,7 +52,7 @@ const CommissionPage = () => {
                         <CommCard img="/images/halfbody.jpg">
                             <div className="mb-5">
                                 <h2 className="text-txt_white text-xl md:text-[40px] font-bold border-b-4 border-accent pb-3">
-                                    HALF BODY - 40 USD
+                                    HALF BODY - 65 USD
                                 </h2>
                             </div>
                             <div>
@@ -133,7 +133,7 @@ const CommissionPage = () => {
                             </li>
                             <li>Payments will be through Paypal with an invoice.</li>
                             <li>I accept 100% upfront or 50% split upfront payments.</li>
-                            <li>
+                            {/* <li>
                                 The commissioner will shoulder the Paypal transaction fee. (Use the{" "}
                                 <Link
                                     href="https://www.salecalc.com/paypal?p=100&l=us&r=0&e=0&f=0&m=0&c=0"
@@ -143,7 +143,7 @@ const CommissionPage = () => {
                                     fee calculator
                                 </Link>{" "}
                                 to check the amount fee)
-                            </li>
+                            </li> */}
                             <li>
                                 Read the full TOS{" "}
                                 <Link

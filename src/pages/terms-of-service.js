@@ -172,10 +172,10 @@ const TermOfService = () => {
                                         All commissioners will be invoiced and payments are received via
                                         Paypal.
                                     </li>
-                                    <li>
-                                        The commissioner will shoulder the Paypal transaction fee. (Please use
-                                        the fee calculator).
-                                    </li>
+                                    {/* <li> */}
+                                    {/* The commissioner will shoulder the Paypal transaction fee. (Please use */}
+                                    {/* the fee calculator). */}
+                                    {/* </li> */}
                                     <li>
                                         All commissions are paid 100% upfront or a split 50% upfront and 50%
                                         after sketch approval.
